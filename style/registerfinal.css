@@ -1,0 +1,90 @@
+#student-form{
+			display:none;
+		}
+		#teacher-form{
+			display: none;
+		}
+
+		.registrationForm{
+		    font: 95% Arial, Helvetica, sans-serif;
+		    max-width: 400px;
+		    margin: 10px auto;
+		    padding: 16px;
+		    background: #F7F7F7;
+		}
+		.registrationForm h1{
+		    background: #43D1AF;
+		    padding: 20px 0;
+		    font-size: 140%;
+		    font-weight: 300;
+		    text-align: center;
+		    color: #fff;
+		    margin: -16px -16px 16px -16px;
+		}
+		.registrationForm input[type="text"],
+		.registrationForm input[type="password"],
+		.registrationForm input[type="date"],
+		.registrationForm input[type="datetime"],
+		.registrationForm input[type="email"],
+		.registrationForm input[type="number"],
+		.registrationForm input[type="search"],
+		.registrationForm input[type="time"],
+		.registrationForm input[type="url"],
+		.registrationForm textarea,
+		.registrationForm select 
+		{
+		    -webkit-transition: all 0.30s ease-in-out;
+		    -moz-transition: all 0.30s ease-in-out;
+		    -ms-transition: all 0.30s ease-in-out;
+		    -o-transition: all 0.30s ease-in-out;
+		    outline: none;
+		    box-sizing: border-box;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    width: 100%;
+		    background: #fff;
+		    margin-bottom: 4%;
+		    border: 1px solid #ccc;
+		    padding: 3%;
+		    color: #555;
+		    font: 95% Arial, Helvetica, sans-serif;
+		}
+		.registrationForm input[type="text"]:focus,
+		.registrationForm input[type="password"]:focus,
+		.registrationForm input[type="date"]:focus,
+		.registrationForm input[type="datetime"]:focus,
+		.registrationForm input[type="email"]:focus,
+		.registrationForm input[type="number"]:focus,
+		.registrationForm input[type="search"]:focus,
+		.registrationForm input[type="time"]:focus,
+		.registrationForm input[type="url"]:focus,
+		.registrationForm textarea:focus,
+		.registrationForm select:focus
+		{
+		    box-shadow: 0 0 5px #43D1AF;
+		    padding: 3%;
+		    border: 1px solid #43D1AF;
+		}
+		.registrationForm h5{
+    
+    		margin-top: 20px;
+    		margin-left:120px;
+		}
+
+		.registrationForm input[type="submit"]{
+		    box-sizing: border-box;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    width: 100%;
+		    padding: 3%;
+		    background: #43D1AF;
+		    border-bottom: 2px solid #30C29E;
+		    border-top-style: none;
+		    border-right-style: none;
+		    border-left-style: none;    
+		    color: #fff;
+		}
+		.registrationForm input[type="submit"]:hover,
+		.registrationForm input[type="button"]:hover{
+		    background: #2EBC99;
+		}

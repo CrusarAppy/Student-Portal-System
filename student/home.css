@@ -1,0 +1,15 @@
+.subject-name {
+	border: 2px solid gray;
+	background-color: "lemon-chiffon";
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	font-size: 30px;
+	font-family: georgia;
+	color: #555;
+
+}
+
+/*.subject-name:hover {
+	text-decoration: under
+};*/
